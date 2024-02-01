@@ -1,0 +1,2 @@
+SELECT customer_id , name ,concat (concat ('+',country_code), phone_number) from customers,country_codes 
+ where customers.country=country_codes.country;
